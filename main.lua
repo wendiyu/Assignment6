@@ -36,14 +36,14 @@ local function calculatePi ( event )
     
     if (numberUser < 0 ) then
 		result.text = ("Please, put a positive integer number!")
-    elseif (numberUser == bom) then
-		result.text = ("Pleasse, put a digit!")
-	elseif (numberUser > 0 ) then
+     elseif (numberUser > 0 ) then
 		repeat
 			answer = answer + ((-1)^initial/((2*initial)+1))
 			initial = initial + 1
 		until numberUser == initial
 			result.text = (" PI is "..answer*4)
+     else
+		result.text = ("Pleasse, put a digit!")
 	end		
 end
 
