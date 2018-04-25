@@ -7,7 +7,7 @@
 -- Calculate PI
 -----------------------------------------------------------------------------------------
 
-local result = display.newText( "", 700, 770, native.systemFont, 100 )
+local result = display.newText( "", 700, 770, native.systemFont, 80 )
 
 local instruction1 = display.newText( "What number of iteration you want to choose?", 1000, 350, native.systemFont, 90 )
 
