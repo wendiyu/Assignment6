@@ -44,7 +44,7 @@ local function calculatePi ( event )
 			result.text = (" PI is "..answer*4)
      else
 		result.text = ("Pleasse, put a digit!")
-	end		
+     end		
 end
 
 enterButton:addEventListener( "touch", onButtonTouched )
